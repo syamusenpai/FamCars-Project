@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Kereta.Master.cs" Inherits="CarsProject.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server" style="background-color: #660066">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            text-align: center;
+        }
+        .auto-style2 {
+            font-size: xx-large;
+            color: #FF00FF;
+        }
+        .auto-style3 {
+            text-align: center;
+            background-color: #660066;
+        }
+        .auto-style4 {
+            text-align: left;
+        }
+        .auto-style6 {
+            font-size: large;
+        }
+        .auto-style7 {
+            width: 1429px;
+            height: 632px;
+        }
+        .auto-style8 {
+            width: 606px;
+            height: 402px;
+        }
+    </style>
+</head>
+<body style="background-color: #660066">
+    <form id="form1" runat="server" style="background-color: #660066">
+        <div class="auto-style1">
+        <div class="auto-style1">
+            <div class="auto-style3">
+                <span class="auto-style2"><strong><br />
+                </strong></span>
+                <img alt="" class="auto-style7" src="Pics/photo_2022-12-20_20-44-27.jpg" /><br />
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <div class="auto-style4">
+                </div>
+            </asp:ContentPlaceHolder>
+        </div>
+            <asp:Button ID="Button1" runat="server" BackColor="Fuchsia" BorderColor="#660066" BorderStyle="Outset" CssClass="auto-style6" Font-Names="Curlz MT" ForeColor="#660066" Text="HOME" Width="142px" OnClick="Button1_Click" />
+        </div>
+    </form>
+    <p>
+        &nbsp;</p>
+</body>
+</html>
