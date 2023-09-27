@@ -1,0 +1,7 @@
+﻿use [C:\USERS\HISYA\DOCUMENTS\BUYER.MDF]
+
+CREATE TABLE customers (
+  name VARCHAR(255) NOT NULL,
+  address VARCHAR(255) NOT NULL,
+  telephone VARCHAR(255) NOT NULL
+);
